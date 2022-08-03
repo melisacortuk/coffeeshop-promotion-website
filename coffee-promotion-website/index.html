@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== ICONS ===============-->
+    <script src="https://kit.fontawesome.com/a5baafa55e.js" crossorigin="anonymous"></script>
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Coffee Website</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header id="header">
+     <div class="header">
+      <div class="container">
+       <div class="header-navbar">
+         <div class="header-logo">
+          <a href="index.html">
+            <h2>Coffee</h2>
+         </div>
+         <div class="header-menu">
+           <ul class="nav-list">
+             <li class="nav-item">
+               <a href="#index" class="nav-link">Anasayfa</a>
+             </li>
+             <li class="nav-item">
+               <a href="#about" class="nav-link">Hakkımızda</a>
+             </li>
+             <li class="nav-item">
+               <a href="#services" class="nav-link">Hizmetler</a>
+             </li>
+             <li class="nav-item">
+               <a href="#contact" class="nav-link">İletişim</a>
+             </li>
+             <i class="fa-solid fa-bars" id="menu-icon" onclick="menuToggle();"></i>
+           </ul>
+          </div>
+        </div>
+         <div class="header-text">
+           <h1><span class="first-letter">B</span>i Kahve?</h1>
+           <h3></h3>
+           <a href="#" class="header-btn">Daha Fazla Bilgi Al</a>
+         </div>
+      </div>
+     </div>
+
+    <style>
+     .header {
+      background-image: url(assets/img/home.jpg);
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+      height: 90vh;
+     }
+    </style>
+   </header>
+
+  <!--==================== ABOUT ====================-->
+    <section id="about">
+     <div class="about">
+      <div class="container">
+       <div class="about-baslık">
+         <h2>HAKKIMIZDA</h2>
+        <div class="about-content">
+         <div class="about-img anime-left">
+          <img src="assets/img/coffee-girl.jpg" alt="">
+            <div class="about-text anime-right">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </section>
+
+  <!--==================== PORTFOLIO ====================-->
+    <section id="portfolio">
+     <div class="portfolio">
+      <div class="portfolio-item">
+        <a href="#" target="_blank">
+          <img src="assets/img/gallery1.jpg" alt="">
+        </a>
+        <div class="overlay">
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <a href="#" target="_blank">
+          <img src="assets/img/gallery2.jpg" alt="">
+        </a>
+        <div class="overlay">
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <a href="#" target="_blank">
+          <img src="assets/img/gallery3.jpg" alt="">
+        </a>
+        <div class="overlay">
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <a href="#" target="_blank">
+          <img src="assets/img/gallery4.jpg" alt="">
+        </a>
+        <div class="overlay">
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <a href="#" target="_blank">
+          <img src="assets/img/gallery5.jpg" alt="">
+        </a>
+        <div class="overlay">
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <a href="#" target="_blank">
+          <img src="assets/img/gallery6.jpg" alt="">
+        </a>
+        <div class="overlay">
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <a href="#" target="_blank">
+          <img src="assets/img/gallery7.jpg" alt="">
+        </a>
+        <div class="overlay">
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <a href="#" target="_blank">
+          <img src="assets/img/gallery8.jpeg" alt="">
+        </a>
+        <div class="overlay">
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+    </div>
+   </section>
+
+  <!--==================== SERVICES ====================-->
+   <section id="about">
+    <div class="about">
+    <div class="container">
+      <div class="about-baslık">
+        <h2>HİZMETLERİMİZ</h2>
+        <div class="about-content">
+          <div class="about-img anime-left">
+          <img src="assets/img/coffee-machine.jpg" alt="">
+          <div class="about-text anime-right">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+         </div>
+        </div>
+      </div>
+     </div>
+    </div>
+   </section>
+
+  <!--==================== CONTACT ====================-->
+  <section id="contact">
+    <div class="contact">
+    <div class="container">
+      <div class="sayfa-baslik">
+        <h2>İLETİŞİM</h2>
+      </div>
+      <div class="contact-content">
+        <div class="contact-item anime-top">
+          <i class="fa-solid fa-phone"></i>
+          <p>0530 630 88**</p>
+          <br>
+          <p>0212 560 77**</p>
+        </div>
+        <div class="contact-item anime-bottom">
+          <i class="fa-solid fa-location-dot"></i>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="contact-item anime-top">
+          <i class="fa-solid fa-envelope"></i>
+          <p>coffeeshop@hotmail.com</p>
+        </div>
+      </div>
+    </div>
+   </div>
+  </section>
+
+  <!--==================== FOOTER ====================-->
+  <div class="footer">
+   <div class="footer-content">
+    <div class="sayfa-baslik">
+      <h2></h2>
+    </div>
+    <div class="footer-copyright">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <nav class="footer-social">
+        <ul>
+         <li>
+           <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+           <a href="#"><i class="fa-brands fa-twitter"></i></a>
+           <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+         </li>
+        </ul>
+        <p>© 2022 Tüm Hakları Saklıdır.</p>
+      </nav>
+    </div>
+   </div>
+  </div>
+
+  <!--=============== SCROLL REVEAL ===============-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
